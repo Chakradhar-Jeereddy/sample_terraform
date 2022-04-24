@@ -63,3 +63,8 @@ variable "sample6" {
 output "sample6" {
   value = var.sample6["name"]
 }
+
+# different ways of inputs to variables
+#default = "input", .tfvars, .auto.tfvars, cli, shell env, manual entry
+
+variable "url" {}
