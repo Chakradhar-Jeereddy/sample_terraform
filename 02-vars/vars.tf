@@ -33,3 +33,28 @@ variable "sample4" {
 output "sample4" {
   value = var.sample4
 }
+
+#variable buckets
+#list, dict
+
+variable "sample5" {
+  description = "list"
+  default = [
+    "hello",
+     100,
+     false,
+     "world"
+] }
+
+output "sample5" {
+  value = var.sample5[0]
+}
+
+variable "sample" {
+  description = "map"
+  default = {
+    name = "chakra",
+    number = 100,
+    boolean = true
+  }
+}
