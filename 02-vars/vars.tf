@@ -9,7 +9,7 @@ output "sample1" {
 #variable type
 variable "sample2" {
   type = string
-  default = "hello"
+  default = "hello world"
 }
 
 output "sample2" {
