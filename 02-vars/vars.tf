@@ -73,3 +73,14 @@ output "url" {
   value = var.url
 }
 
+variable "url_cli" {}
+
+output "url_cli" {
+  value = var.url_cli
+}
+
+variable "url_shell" {}
+
+output "url_shell" {
+  value = var.url_shell
+}
