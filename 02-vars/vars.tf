@@ -44,7 +44,8 @@ variable "sample5" {
      100,
      false,
      "world"
-] }
+]
+}
 
 output "sample5" {
   value = var.sample5[0]
