@@ -51,11 +51,15 @@ output "sample5" {
   value = var.sample5[3]
 }
 
-variable "sample" {
+variable "sample6" {
   description = "map"
   default = {
     name = "chakra",
     number = 100,
     boolean = true
   }
+}
+
+output "sample6" {
+  value = var.sample6["name"]
 }
