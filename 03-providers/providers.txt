@@ -1,0 +1,8 @@
+terraform has many providers
+official, verified and community
+the declaration of provider is not mandatory, if version is not specified,
+the latest is chosen by default.
+
+block is provider "aws" {
+  version = ""
+}
