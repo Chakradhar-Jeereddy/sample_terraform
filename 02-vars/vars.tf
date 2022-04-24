@@ -5,3 +5,8 @@ variable "sample1" {
 output "sample" {
   value = var.sample1
 }
+
+#type of variables
+variable "sample2" {
+  default = 100
+}
