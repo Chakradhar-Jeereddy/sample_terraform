@@ -68,8 +68,8 @@ output "sample6" {
 #default = "input", .tfvars, .auto.tfvars, cli, shell env, manual entry
 
 variable "url" {}
+
 output "url" {
   value = var.url
 }
 
-variable
