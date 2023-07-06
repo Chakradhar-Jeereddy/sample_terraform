@@ -1,5 +1,5 @@
 ## sample_terraform
 ***
 
-Intented code
+Indented code
    // Ansible code
