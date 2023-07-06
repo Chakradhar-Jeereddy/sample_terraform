@@ -1,6 +1,8 @@
 ## sample_terraform
 ***
 Inline `code`
-Indented code
-   // Ansible code
-   line 1 of code
+Block code "Fences"
+'''
+Ansible code
+line 1 of code
+'''
